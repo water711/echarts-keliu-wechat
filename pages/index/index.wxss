@@ -1,0 +1,49 @@
+/**index.wxss**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #E6F3F9;
+  border: 1px solid gray;
+  position: relative;
+  text-align: center;
+}
+
+.tilte{
+  /* width: 100%; */
+  font-size: 40rpx;
+}
+
+.cal{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  z-index: 2;
+  right: 16px;
+  top: 0;
+}
+
+picker{
+  width: 100%;
+  background-color: rgba(170, 165, 165, 0.212);
+}
+
+.picker{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 40rpx;
+}
+
+ec-canvas {
+  width: 100%;
+  height: 500px;
+}

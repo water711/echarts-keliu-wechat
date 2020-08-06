@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="row">
+    <view class="title">{{title}}</view>
+    <picker mode="date" value="{{date}}" start="{{start_date}}" end ="{{end_date}}" bindchange="bindDateChange">
+      <image class="cal" mode="aspectFit" src="/img/icons/calendar.png"></image>
+    </picker>
+  </view>
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
